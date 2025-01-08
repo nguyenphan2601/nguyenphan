@@ -3,16 +3,16 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-color: #f5f5f5; /* Màu nền sáng nhẹ */
-    color: #333; /* Màu chữ dễ đọc */
+    background-color: #e0f7fa; /* Màu nền xanh da trời nhạt */
+    color: #333333; /* Màu chữ tối để dễ đọc */
 }
 
 header {
-    background: linear-gradient(90deg, #827d8e, #321d64); /* Gradient cam đỏ */
+    background: linear-gradient(90deg, #4fc3f7, #0288d1); /* Gradient xanh da trời */
     color: #ffffff;
     padding: 20px 0;
     text-align: center;
-    box-shadow: 0 4px 6px rgba(228, 222, 222, 0.2);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
     text-transform: uppercase;
 }
 
@@ -29,7 +29,7 @@ header p {
 }
 
 nav {
-    background: #eeefee; /* Màu cam nổi bật */
+    background: #81d4fa; /* Màu nền cho nav */
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
 }
 
@@ -46,7 +46,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #ffffff;
+    color: #ffffff; /* Màu chữ cho liên kết */
     text-decoration: none;
     font-size: 1.1rem;
     font-weight: bold;
@@ -55,7 +55,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: #ffccbc; /* Màu cam nhạt hơn khi di chuột */
+    color: #ffccbc; /* Màu nhạt hơn khi di chuột */
     transform: scale(1.1); /* Phóng to nhẹ khi di chuột */
     text-decoration: underline;
 }
@@ -63,7 +63,7 @@ nav ul li a:hover {
 section {
     padding: 30px;
     margin: 20px auto;
-    background: linear-gradient(135deg, #ffffff, #f1f8e9); /* Gradient sáng nhẹ */
+    background: #ffffff; /* Màu nền trắng cho phần nội dung */
     border-radius: 10px;
     box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -76,7 +76,7 @@ section:hover {
 }
 
 section h2 {
-    color: #37474f; /* Màu xanh đậm */
+    color: #0288d1; /* Màu xanh da trời đậm */
     font-size: 1.8rem;
     margin-bottom: 20px;
     border-bottom: 3px solid #ff8a65; /* Gạch dưới màu nổi bật */
@@ -87,7 +87,7 @@ section h2 {
 footer {
     text-align: center;
     padding: 15px 0;
-    background: linear-gradient(90deg, #37474f, #455a64); /* Gradient xanh xám đậm */
+    background: #0288d1; /* Màu nền tối cho footer */
     color: #ffffff;
     position: relative;
     bottom: 0;
@@ -101,9 +101,9 @@ footer p {
 }
 
 button {
-    background-color: #311912; /* Màu cam nổi bật */
+    background-color: #4fc3f7; /* Màu nền cho nút */
     border: none;
-    color: rgb(68, 41, 173);
+    color: #ffffff; /* Màu chữ cho nút */
     padding: 12px 20px;
     font-size: 16px;
     font-weight: bold;
@@ -114,7 +114,7 @@ button {
 }
 
 button:hover {
-    background-color: #ff7043; /* Màu cam đậm hơn khi di chuột */
+    background-color: #0288d1; /* Màu xanh đậm hơn khi di chuột */
     transform: scale(1.1); /* Phóng to nhẹ */
-    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.3); /* Tăng bóng */
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.3); /* Tăng*/
 }
